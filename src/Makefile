@@ -1,5 +1,5 @@
 CFLAGS = -std=gnu99 -Wall -Wextra -fvisibility=hidden -O2
-LDFLAGS =
+LDFLAGS = -lc
 
 SRCS = hashtable.c log.c acl.c socket.c message.c channel.c tunnel.c udptunnel.c
 
