@@ -1,5 +1,3 @@
-CC = gcc
-LD = gcc
 CFLAGS = -std=gnu99 -Wall -Wextra -fvisibility=hidden -O2
 LDFLAGS =
 
